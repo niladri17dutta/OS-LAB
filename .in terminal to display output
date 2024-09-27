@@ -1,0 +1,30 @@
+To run C++ Code:
+
+In Terminal:
+
+1. gcc filename.c
+2. ./a.out
+
+Otherwise:
+1. Just press ( |> ) play button.
+
+
+
+
+
+
+
+Otherwise:
+1. Open your C++ IDE (e.g., Visual Studio, Code::Blocks, etc.)
+2. Create a new project and add your C++ file
+3. Compile and run the code
+4. The output will be displayed in the console or terminal
+5. You can also use online compilers like Repl.it, Ideone, etc.
+6. You can also use online platforms like LeetCode, HackerRank, etc. to practice coding
+7. You can also use a C++ IDE like Visual Studio Code, IntelliJ IDEA, etc.
+8. You can also use a C++ compiler like GCC, Clang, etc.
+9. You can also use a C++ library like STL, Boost, etc.
+10. You can also use a C++ framework like Qt, wxWidgets, etc.
+11. You can also use a C++ IDE plugin like CMake, etc.
+12. You can also use a C++ online platform like CodeWars, etc.
+13. You can also use a C++ online compiler like C++ Shell, etc.
