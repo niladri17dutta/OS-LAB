@@ -37,7 +37,11 @@ void cscan(int req[], int n, int head, int disk_size) {
     for (int i = 0; i < n; i++) sorted[i] = req[i];
     sorted[n] = 0, sorted[n + 1] = disk_size - 1;
     for (int i = 0; i < size - 1; i++) for (int j = 0; j < size - i - 1; j++)
-        if (sorted[j] > sorted[j + 1]) { int tmp = sorted[j]; sorted[j] = sorted[j + 1]; sorted[j + 1] = tmp; }
+        if (sorted[j] > sorted[j + 1]) {
+            int tmp = sorted[j];
+            sorted[j] = sorted[j + 1];
+            sorted[j + 1] = tmp;
+        }
     int idx = 0;
     while (idx < size && head > sorted[idx]) idx++;
     printf("C-SCAN:\n");
